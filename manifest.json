@@ -1,8 +1,7 @@
 {
   "name": "mvp-cnhdigital",
   "short_name": "mvp-cnhdigital",
-  "icons": [
-    {
+  "icons": [{
       "src": "./img/icons/android-chrome-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
@@ -16,5 +15,10 @@
   "start_url": "./login",
   "display": "standalone",
   "background_color": "#000000",
-  "theme_color": "#4DBA87"
+  "theme_color": "#4DBA87",
+  "prefer_related_applications": true,
+  "related_applications": [{
+    "platform": "play",
+    "id": "com.google.samples.apps.iosched"
+  }]
 }
